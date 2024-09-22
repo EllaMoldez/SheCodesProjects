@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bubble Tea Journey: Sip into Bliss!</title>
+    <style>
+      body {
+        font-family: 'Quicksand', sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #fff7e6;
+        position: relative;
+        min-height: 100vh;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 30px;
+        background: linear-gradient(to right, #ffc1cc, #d7f5d9);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        position: relative;
+        z-index: 1;
+        border: 5px solid #e6d4f0;
+      }
+      h1 {
+        font-size: 50px;
+        margin: 0;
+        text-align: center;
+        padding: 50px;
+        background: #ffadad;
+        color: #fff;
+        border-radius: 8px;
+      }
+      h2 {
+        font-size: 30px;
+        margin: 40px 0;
+        text-align: center;
+        color: #3d3d3d;
+      }
+      h3 {
+        font-size: 40px;
+        color: #3d3d3d;
+        padding: 20px 0;
+        margin: 0;
+        text-align: center;
+      }
+      p {
+        font-size: 18px;
+        color: #5a4f4f;
+        line-height: 1.5;
+      }
+      .image-section {
+        padding: 5px 25px;
+        text-align: center;
+      }
+      .image-section img {
+        max-width: 50%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .image-section .caption {
+        font-size: 12px;
+        color: #5a4f4f;
+        margin-top: 5px;
+      }
+      .join {
+        text-align: center;
+      }
+      button {
+        font-size: 18px;
+        margin: 20px auto;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #ffadad;
+        color: #fff;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        box-shadow: 0px 8px 8px 0 rgba(37, 39, 89, 0.08);
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      button:hover {
+        background-color: #ff9696;
+      }
+      hr {
+        margin: 40px auto;
+        border: 0;
+        border-top: 1px solid #d3b2a6;
+      }
+      .my-favorites {
+        background: #f6ffed;
+        padding: 20px 40px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 50px 20px;
+      }
+      .my-favorites h2 {
+        font-size: 2.2rem;
+        color: #3d3d3d;
+      }
+      .my-favorites p {
+        font-size: 1.2rem;
+        color: #5a4f4f;
+        line-height: 1.6;
+      }
+      footer {
+        text-align: center;
+        padding: 40px 20px;
+        font-size: 12px;
+        color: #3d3d3d;
+        margin-top: 20px;
+        font-family: monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Bubble Tea Bliss!</h1>
+      <h2>Sip into happiness with every bubble tea!</h2>
+      <hr />
+      <h3>What is Bubble Tea?</h3>
+      <p>
+        <strong>Bubble tea</strong> is a delightful Taiwanese drink combining
+        rich tea, sweet milk, and chewy tapioca pearls, offering an
+        <em>exciting flavor experience</em> with every sip.
+      </p>
+      <p>
+        Originally served as a simple tea drink, bubble tea has evolved into a
+        global phenomenon with a variety of flavors, such as fruit-based teas,
+        milk teas, and even dessert-inspired creations. Its versatility allows
+        people of all tastes to find their perfect combination of tea,
+        sweetness, and texture.
+      </p>
+
+      <div class="image-section">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/144/583/original/bubble-tea4.jpg?1726967810"
+          alt="Delicious Bubble Tea"
+        />
+        <div class="caption">Photo by Leo_Visions on Unsplash</div>
+      </div>
+
+      <div class="my-favorites" id="favorites">
+        <h3>Why I Love Bubble Tea</h3>
+        <p>
+          <strong>Bubble tea</strong> has always been a source of joy for me.
+          The combination of flavors and the fun of the chewy tapioca pearls
+          make each sip an experience. It's not just a drink; it's a moment of
+          happiness!
+        </p>
+        <p>
+          My <strong>favorite flavor</strong> is <em>matcha</em>. The rich,
+          creamy taste of matcha blends perfectly with the sweetness of bubble
+          tea, creating a refreshing and satisfying treat.
+        </p>
+        <div class="image-section">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/144/584/original/matcha.jpg?1726967889"
+            alt="Matcha Bubble Tea"
+          />
+          <div class="caption">Photo by Polina Tankilevitch on Pexels</div>
+        </div>
+      </div>
+
+      <h3>Fun Facts About Bubble Tea</h3>
+      <p>
+        Bubble tea, also known as <strong>boba tea</strong>, gets its name from
+        the frothy bubbles formed when the drink is shaken. Contrary to popular
+        belief, the <em>"bubbles"</em> in its name don’t actually refer to the
+        tapioca pearls but to the foam created by shaking the tea.
+        Traditionally, bubble tea is made using a <em>cocktail shaker</em> to
+        mix the ingredients, and the bubbles are a fun side effect of this
+        process.
+      </p>
+      <p>
+        Additionally, bubble tea has become a
+        <strong>cultural icon</strong> beyond just a drink. In many places,
+        bubble tea shops serve as <em>social hubs</em> where friends gather,
+        study, and even take photos of their colorful drinks to share on social
+        media. With endless flavors, toppings, and customization options, bubble
+        tea is not just a beverage but an <strong>experience</strong> that
+        continues to evolve and attract fans globally.
+      </p>
+      <p>
+        For more details, read on
+        <a href="https://en.wikipedia.org/wiki/Bubble_tea" target="_blank"
+          >Wikipedia</a
+        >.
+      </p>
+      <br />
+      <p class="join">
+        Want to learn more fun facts and join the bubble tea community?
+        <br />
+      </p>
+      <button>Join Us Now!</button>
+      <hr />
+
+      <footer>
+        Stirred with code and a touch of bubble tea magic by
+        <a href="https://github.com/EllaMoldez" target="_blank">Ella Moldez</a
+        >🧋💓
+      </footer>
+    </div>
+
+    <script>
+      function joinCommunity() {
+        let userName = prompt("What's your name?");
+        if (userName) {
+          alert(`Welcome to the Bubble Tea Journey, ${userName}!`);
+        } else {
+          alert(`You didn't enter your name, but you're still welcome!`);
+        }
+      }
+      let joinButton = document.querySelector('button');
+      joinButton.addEventListener('click', joinCommunity);
+    </script>
+  </body>
+</html>
