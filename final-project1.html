@@ -96,7 +96,7 @@
         border: 0;
         border-top: 1px solid #d3b2a6;
       }
-      .my-favorites {
+      .my-favorite {
         background: #f6ffed;
         padding: 20px 40px;
         border-radius: 8px;
@@ -139,7 +139,7 @@
         <div class="caption">Photo by Leo_Visions on Unsplash</div>
       </div>
 
-      <div class="my-favorites" id="favorites">
+      <div class="my-favorite" id="favorite">
         <h3>Why I Love Bubble Tea</h3>
         <p>
           <strong>Bubble tea</strong> has always been a source of joy for me.
@@ -204,6 +204,7 @@
     <script>
       function joinCommunity() {
         let userName = prompt("What's your name?");
+        let email = prompt("What's your email address?");
         if (userName) {
           alert(`Welcome to the Bubble Tea Journey, ${userName}!`);
         } else {
